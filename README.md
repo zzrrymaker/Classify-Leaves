@@ -1,20 +1,20 @@
-# Classify-Leaves📘
+# Classify-Leaves
 这是一个简单的关于叶子数据集分类的任务，整个任务中里包含5个不同的分类实现项目。1.有适用于深度学习初学者学习的resnet微调模型，代码内容步骤十分详尽，模板框架思路明确，适用于初学者快速掌握代码框架，并在此基础上加以改进，调出属于自己的计算机视觉模型并运用在不同的项目上；2.还包含多用于竞赛得分提升上的集成模型，可稳定提升准确率，集成模型的学习是很重要的，值得学习这里的操作步骤，以及用到的一些新模型和处理方法，由于训练代价过高所以不一定能完整训练完；3.此外还包含一些新的模型框架并用极致的调参以及数据增强用于图片预测，同样达到了优秀的预测结果可以多了解学习一下如何操作的；4.最后这里还有工业界常用的AutoGluon，简短的代码实现分类，学习这样的技术是有价值的可以看看这种代码是如何运用在常见的分类任务中的。
 
 ---
 
-# 数据集展示🖼️
+# 数据集展示
 
 <img width="1083" height="738" alt="image" src="https://github.com/user-attachments/assets/57ab47fc-b945-4ef9-aafe-9c77d3b6e2fe" />
 
-📓 [数据集完整展示参考 data_display.ipynb](./data_display.ipynb)
+[数据集完整展示参考 data_display.ipynb](./data_display.ipynb)
 
 
-# ResNet34_baseline🎯
+# ResNet34_baseline
 
-# ResNet18_finetuning🎯
+# ResNet18_finetuning
 
-# ResNeSt_ResNeXt_DenseBet_Ensemble🎯
+# ResNeSt_ResNeXt_DenseBet_Ensemble
 任务介绍：
 1.框架上使用了ResNet34_baseline上的代码框架，思路清晰，因此建议适合用于当作自己框架；
 
@@ -32,4 +32,4 @@
 
 ④交叉验证：使用K折交叉验证；
 
-📓 [完整代码参考 ensemble_learning.ipynb](.ResNeSt_ResNeXt_DenseBet_Ensemble/ensemble_learning.ipynb)
+[完整代码参考 ensemble_learning.ipynb](.ResNeSt_ResNeXt_DenseBet_Ensemble/ensemble_learning.ipynb)
